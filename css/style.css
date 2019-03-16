@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .my-container, .my-container-fluid {
+    height: 50vh;
+    background-color: red;
+}
+.my-container-fluid {
+    background-color: green;
+} */
+
+.item {
+    height: 200px;
+    background: rgba(109, 206, 223, 0.479);
+}
+.item:nth-of-type(2n) {
+    background: rgb(61, 141, 8);
+}
+[class^='col-sm-'] {
+    outline: 1px solid red;
+}
